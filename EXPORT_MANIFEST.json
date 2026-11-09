@@ -1,0 +1,115 @@
+{
+  "scope": "Curated CPU numerical modules and synthetic tests; original history and private data excluded",
+  "source_files": "Seven unchanged source files and four unchanged existing test/reference files; private source-revision mapping retained separately",
+  "content_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 70,
+      "sha256": "8e52049b178b84e47b18f85c1dc6d7f59dab3d9e5af524aecaee8c5e1f6a0cbb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 666,
+      "sha256": "0149b321051e91bcd32bb1bbad85166ed1ff2a9f003844bcd9741260575f8cf8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3829,
+      "sha256": "ba6ee60dd19e18d844acc15afb5f159a1d629e8ff62c59399cebaf38ec2947c8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1080,
+      "sha256": "541b8e3fa012cf04efd3fe490b643abd52ee24eea04b9ad9f29ac4312ab4da90"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 2086,
+      "sha256": "5789352fb7cacc5c4538f08f311007644423d2d2bc5aa411e3f0e95ea1707fce"
+    },
+    {
+      "path": "docs/attribution.md",
+      "bytes": 1724,
+      "sha256": "ee8afb4f6c3a363137831a8becc409583cc8ccf6db9e7f4cfaef2252ec2add3a"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 1604,
+      "sha256": "e8e4ad6b19afe9af70ee6099e9e32cda5ebe2c3a3a314699dccf323c0353a7dc"
+    },
+    {
+      "path": "examples/synthetic_demo.py",
+      "bytes": 1994,
+      "sha256": "446169f0e9aaf6868fcffc34f378b2efe2e2d47f71e53d4829a4a5d31d125eea"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 523,
+      "sha256": "4d8bb65e0ee36c3435985a230d2822b7057ea0a5ffe65db3aa2941b2a4882c44"
+    },
+    {
+      "path": "src/coherence_yanbo/__init__.py",
+      "bytes": 56,
+      "sha256": "016eb78242e60f126ec7fea3f557f82011485f77d96f129f01456b64c031aaf4"
+    },
+    {
+      "path": "src/coherence_yanbo/kernels/coh_cpu/__init__.py",
+      "bytes": 380,
+      "sha256": "998724adf3eea16a4a04fb34f46360670dbf604cd9a3f0c1a0b154baff0d2079"
+    },
+    {
+      "path": "src/coherence_yanbo/kernels/coh_cpu/api.py",
+      "bytes": 5023,
+      "sha256": "4fb539253a656efdbd2f90a8d964d1012c0657700e62304a9f79855fbf8bacb1"
+    },
+    {
+      "path": "src/coherence_yanbo/kernels/coh_cpu/kernel.py",
+      "bytes": 5183,
+      "sha256": "286791ca668e1c9913dc7e85b5decb3a960d1657bbd5030bdc57e33110e70ec5"
+    },
+    {
+      "path": "src/coherence_yanbo/kernels/coh_cpu/policy.py",
+      "bytes": 2205,
+      "sha256": "78476e10734040d780ca2bec5e5fd3aa5ead661ad5b24d157bf80ffcdfad9b46"
+    },
+    {
+      "path": "src/coherence_yanbo/kernels/cwt_cpu/__init__.py",
+      "bytes": 184,
+      "sha256": "6c37b1a52214fe5088a480e43cd248aead9741b42e31af0cf53b0a2b2ff0fcbe"
+    },
+    {
+      "path": "src/coherence_yanbo/kernels/cwt_cpu/kernel.py",
+      "bytes": 13524,
+      "sha256": "4c8736e61c8788cc5d338981c02fd31582aa533196e8f94a5e52529fabbc6feb"
+    },
+    {
+      "path": "tests/kernels/coh_cpu/__init__.py",
+      "bytes": 66,
+      "sha256": "1eb7efb1048854b2a852338d574db51ed861f45494ada1d1ccfbf4dbe46e677d"
+    },
+    {
+      "path": "tests/kernels/coh_cpu/reference.py",
+      "bytes": 1448,
+      "sha256": "8bce6b1102177a5da212773a14ee4af85ffe85a8897570e37393a25c9705b45c"
+    },
+    {
+      "path": "tests/kernels/coh_cpu/test_coh_cpu.py",
+      "bytes": 14760,
+      "sha256": "37a97f2c6c5a1f44cf0f036d386e929228316bdcd0c1b6f77aa9d025e971df09"
+    },
+    {
+      "path": "tests/kernels/cwt_cpu/test_kernel.py",
+      "bytes": 17042,
+      "sha256": "24aa00ede658e3de7224ec4bd07669ed0106321df5d1e9d0c6f0edbe12535538"
+    }
+  ],
+  "excluded_categories": [
+    "Experimental and participant data",
+    "Credentials and account configuration",
+    "Internal hosts, absolute paths and scheduler configurations",
+    "Original history, communications and private review evidence",
+    "Production workflows and deployment artifacts",
+    "Third-party data and executables"
+  ],
+  "license": "Private review only; no open-source redistribution grant"
+}
